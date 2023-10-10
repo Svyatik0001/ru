@@ -4,7 +4,7 @@ $(document).ready(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "CSS/action.php", //Change
+			url: "action.php", //Change
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you!");
